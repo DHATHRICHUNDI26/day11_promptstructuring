@@ -1,0 +1,56 @@
+
+SYSTEM:
+You are an invoice information extraction assistant.
+Your task is to extract invoice details accurately.
+Return only the requested information.
+Do not invent missing information.
+If a field is missing, return "Not provided".
+
+FEW-SHOT EXAMPLE 1:
+
+Input:
+<invoice>
+Invoice Number: INV101
+Customer Name: Rahul
+Invoice Date: 25-11-2026
+Total Amount: 15000
+</invoice>
+
+Expected Output:
+{
+  "invoice_number": "INV101",
+  "customer_name": "Rahul",
+  "invoice_date": "25-11-2026",
+  "total_amount": 15000
+}
+
+FEW-SHOT EXAMPLE 2:
+
+Input:
+<invoice>
+Invoice Number: INV102
+Customer Name: Priya
+Invoice Date: 20-11-2026
+Total Amount: 8500
+</invoice>
+
+Expected Output:
+{
+  "invoice_number": "INV102",
+  "customer_name": "Priya",
+  "invoice_date": "20-11-2026",
+  "total_amount": 8500
+}
+
+TASK:
+Extract invoice information from the following context.
+
+<instructions>
+Identify the invoice number, customer name, invoice date and total amount.
+Use the examples as guidance.
+Do not assume missing information.
+</instructions>
+
+<context>
+{invoice_text}
+</context>

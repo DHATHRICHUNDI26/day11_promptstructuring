@@ -1,0 +1,29 @@
+
+TEST 1:
+Invoice Number: INV201
+Customer Name: Arjun
+Invoice Date: 10-11-2026
+Total Amount: 12000
+
+TEST 2:
+Invoice Number: INV202
+Customer Name: Sneha
+Invoice Date: 12-11-2026
+Total Amount: 9500
+
+TEST 3:
+Invoice Number: INV203
+Customer Name: Kiran
+Invoice Date: 15-11-2026
+Total Amount: 18000
+
+TEST 4:
+Invoice Number: INV204
+Customer Name: Ananya
+Total Amount: 7500
+
+TEST 5:
+Invoice Number: INV205
+Customer Name: Rohan
+Invoice Date: 22-11-2026
+Total Amount: 11000

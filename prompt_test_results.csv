@@ -1,0 +1,20 @@
+test_number,input,output
+1,"Invoice Number: INV201
+Customer Name: Arjun
+Invoice Date: 10-11-2026
+Total Amount: 12000","{""invoice_number"":""INV201"",""customer_name"":""Arjun"",""invoice_date"":""10-11-2026"",""total_amount"":12000.0}"
+2,"Invoice Number: INV202
+Customer Name: Sneha
+Invoice Date: 12-11-2026
+Total Amount: 9500","{""invoice_number"":""INV202"",""customer_name"":""Sneha"",""invoice_date"":""12-11-2026"",""total_amount"":9500.0}"
+3,"Invoice Number: INV203
+Customer Name: Kiran
+Invoice Date: 15-11-2026
+Total Amount: 18000","{""invoice_number"":""INV203"",""customer_name"":""Kiran"",""invoice_date"":""15-11-2026"",""total_amount"":18000.0}"
+4,"Invoice Number: INV204
+Customer Name: Ananya
+Total Amount: 7500","{""invoice_number"":""INV204"",""customer_name"":""Ananya"",""invoice_date"":""Not provided"",""total_amount"":7500.0}"
+5,"Invoice Number: INV205
+Customer Name: Rohan
+Invoice Date: 22-11-2026
+Total Amount: 11000","{""invoice_number"":""INV205"",""customer_name"":""Rohan"",""invoice_date"":""22-11-2026"",""total_amount"":11000.0}"
